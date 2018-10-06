@@ -11,8 +11,8 @@ chkconfig --list | grep on
 echo 'Asia/Tokyo' | sudo tee /etc/timezone“ > /dev/null
 sudo cp -p /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
-# 各種aApache,PHP(APC),Wordpressをインストール
+# 各種Apache,PHP(APC)をインストール
 sudo apt-get -y install apache2
-sudo apt-get -y install php5 libapache2-mod-php5 php5-mysql php-pear php5-gd
+sudo apt-get -y install php7.0 libapache2-mod-php7.0 php7.0-mysql php-pear php7.0-gd
 sudo apt-get -y install unzip mysql-client
 
