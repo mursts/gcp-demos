@@ -7,7 +7,7 @@ ComputeEngine + CloudSQLでWordpressを構築するデモ・ハンズオンで�
 慣れた方であれば10分かからないでしょう。
 
 ####1.サーバ準備
-Devコンソールからn1-standard-1Ubuntu最新版インスタンスをアジアで立ち上げる。  
+Devコンソールからn1-standard-1 Debian9のインスタンスを東京で立ち上げる。
 httpとhttpsを許可するように設定してください。  
 ブラウザ等からSSHでログインし、以下で最新化して、gitを入れる  
 >sudo apt-get update -y  
@@ -22,7 +22,7 @@ httpとhttpsを許可するように設定してください。
 ####3.gcp-demos/wp-startup
 wp-startup-1.sh  
 を実行する。  
-→実行したら、管理コンソールのIPをクリックして、Ubuntuのデフォルト画面が表示されていることを確認する。  
+→実行したら、管理コンソールのIPをクリックして、Apacheのデフォルト画面が表示されていることを確認する。
 
 ####4.Wordpressのダウンロード
 wp-startup-2.sh  
