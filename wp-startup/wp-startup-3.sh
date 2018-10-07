@@ -6,4 +6,4 @@ curl https://sdk.cloud.google.com | bash
 
 gcloud auth login             ###ブラウザからログインが必要
 gcloud config set project cloud-ace-demo      ###プロジェクト名は自分のものを指定する。
-gcloud sql instances create wp-demo --region asia-east1 --assign-ip --authorized-networks “104.199.151.134“                         ### インスタンス名（任意）IPアドレスは自分のGCEのものを指定
+gcloud sql instances create wp-demo --region asia-northeast1 --assign-ip --authorized-networks “104.199.151.134“                         ### インスタンス名（任意）IPアドレスは自分のGCEのものを指定
