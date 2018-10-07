@@ -2,7 +2,7 @@
 #管理画面からも可能ですが、せっかくなのでコマンドラインで実施してみましょう。
 #以下、個別のユーザ環境にbashをインストール
 curl https://sdk.cloud.google.com | bash
-. ~/.bash_profile
+. ~/.bashrc
 
 gcloud auth login             ###ブラウザからログインが必要
 gcloud config set project cloud-ace-demo      ###プロジェクト名は自分のものを指定する。
