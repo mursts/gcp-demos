@@ -12,7 +12,7 @@ ComputeEngine + CloudSQLでWordpressを構築するデモ・ハンズオンで�
 ### 1.サーバ準備
 
 Devコンソールからn1-standard-1 Debian9のインスタンスを東京リージョンで立ち上げる。
-httpとhttpsを許可するように設定してください。  
+httpを許可するように設定してください。
 ブラウザ等からSSHでログインし、以下で最新化して、gitを入れる  
 
 ```sh
